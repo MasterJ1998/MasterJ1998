@@ -4,20 +4,7 @@
 - 💞️ I’m looking to collaborate on improving others and my own code!
 - 📫 How to reach me: My email is jarren.smith@ymail.com and my cell number is (954) 501-5124 to text me.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blank Website</title>
-    <style>
-        /* Add your CSS styles here */
-    </style>
-</head>
-<body>
-    <!-- Your content goes here -->
-</body>
-</html>
+
 <!---
 MasterJ1998/MasterJ1998 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
