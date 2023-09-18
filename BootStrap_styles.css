@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+      font-family: Crete Round;
+      background-color:#EDE7B1;
+      color:#19180A;
+      
+  }
+
+  img {
+    height: 190px;
+    text-align: center;
+  }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+title>Master  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  < J Website</title>
+  <!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- JavaScript code -->
+<script src="script.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- compiled SASS styles -->
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Master J</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#resume">My Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="home">
+<div class="container mt-5">
+  <h1>Welcome to My Personal Website</h1>
+  <div class="alert alert-success">Hi! My name is Jarren. To reach out to me, my email is: 
+    <a href="mailto:jarren.smith@ymail.com">jarren.smith@ymail.com</a></div>
+    
+    <button id="openResumeButton" class="btn btn-primary">Open Resume!</button>
+    <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resumeModalLabel">Jarren's Resume</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <object data="file:///C:/Users/jarre/OneDrive/Desktop/resume(updated).pdf" type="application/pdf" width="100%" height="500px">
+              <p>It appears you don't have a PDF plugin for this browser. You can <a href="file:///C:/Users/jarre/OneDrive/Desktop/resume(updated).pdf">click here to download the PDF file.</a></p>
+            </object>
+            
+            <iframe src="file:///C:/Users/jarre/OneDrive/Desktop/resume(updated).pdf" width="100%" height="100px" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <a href="file:///C:/Users/jarre/OneDrive/Desktop/resume(updated).pdf" 
+  class="btn btn-primary">Click Here For PDF Version!</a>
+
+</div>
+</section>
+
+
+<section id="contact">
+
+
+</section>
+
+</body>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p>&copy; 2023 Master J</p>
+      
+        <ul class="social-icons">
+          <li><a href="https://www.facebook.com/jarren.n.smith"><i class="fab fa-facebook">https://www.facebook.com/jarren.n.smith</i></a></li>
+          <li><a href="https://twitter.com/spicywingz11"><i class="fab fa-twitter">https://twitter.com/spicywingz11</i></a></li>
+          <li><a href="https://www.instagram.com/spicywingz11/"><i class="fab fa-instagram">https://www.instagram.com/spicywingz11/</i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>Email: jarren.smith@ymail.com | LinkedIn:<a href="https://www.linkedin.com/in/jarren-smith-82b380228/"> Click Here!</a> </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
